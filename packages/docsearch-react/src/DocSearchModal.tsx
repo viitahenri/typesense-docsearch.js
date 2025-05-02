@@ -268,9 +268,8 @@ export function DocSearchModal({
                                 item.type !== 'lvl1' &&
                                 groupedHits.find(
                                   (siblingItem) =>
-                                    siblingItem.type === 'lvl1' &&
                                     siblingItem['hierarchy.lvl1'] ===
-                                      item['hierarchy.lvl1']
+                                    item['hierarchy.lvl1']
                                 ),
                             };
                           })
